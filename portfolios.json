@@ -1,0 +1,47 @@
+{
+    "Tech Giants": {
+        "name": "Tech Giants",
+        "stocks": {
+            "AAPL": 0.6,
+            "MSFT": 0.4
+        },
+        "created_at": "2026-05-01T23:17:51.961571"
+    },
+    "Diversified": {
+        "name": "Diversified",
+        "stocks": {
+            "AAPL": 0.33,
+            "MSFT": 0.33,
+            "GOOGL": 0.34
+        },
+        "created_at": "2026-05-01T23:17:51.961574"
+    },
+    "Balanced": {
+        "name": "Balanced",
+        "stocks": {
+            "MSFT": 0.4,
+            "GOOGL": 0.4,
+            "AMZN": 0.2
+        },
+        "created_at": "2026-05-01T23:17:51.961575"
+    },
+    "Custom Portfolio 1": {
+        "name": "Custom Portfolio 1",
+        "stocks": {
+            "AMZN": 0.5,
+            "AAPL": 0.5
+        },
+        "created_at": "2026-05-01T23:18:09.779749"
+    },
+    "Growth Portfolio": {
+        "name": "Growth Portfolio",
+        "stocks": {
+            "GS": 0.2,
+            "JPM": 0.2,
+            "BAC": 0.2,
+            "MA": 0.2,
+            "V": 0.2
+        },
+        "created_at": "2026-05-02T00:58:49.198283"
+    }
+}

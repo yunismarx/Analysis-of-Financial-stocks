@@ -1,0 +1,4 @@
+# file: D:\12\Cyber_Threat_Monitor\src\features\ml_predictor\predictor.py
+# hypothesis_version: 6.151.10
+
+[0.0, 1e-10, 0.001, 0.1, 0.2, 1.0, 100, 200, 'Close', 'Day_Cos', 'Day_Sin', 'High', 'Low', 'MACD', 'MA_20', 'MA_200', 'MA_50', 'Month_Cos', 'Month_Sin', 'Open', 'RSI', 'Return_1d', 'Return_20d', 'Return_5d', 'Target', 'Vol_20d', 'Volume', '__len__', 'mae', 'mape', 'model_name', 'mse', 'r2', 'rmse', 'val_loss']

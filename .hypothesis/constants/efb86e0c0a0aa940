@@ -1,0 +1,4 @@
+# file: D:\12\Cyber_Threat_Monitor\src\features\portfolio_comparator\comparator.py
+# hypothesis_version: 6.151.10
+
+[0.0, 0.02, 0.95, 1.0, 100, 252, 'Annualized Return', 'Beta', 'CVaR (95%)', 'Max Drawdown', 'Sharpe Ratio', 'Total Return', 'VaR (95%)', 'Volatility']

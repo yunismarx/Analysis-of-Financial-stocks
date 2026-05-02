@@ -1,0 +1,4 @@
+# file: D:\12\Cyber_Threat_Monitor\src\core\cache_manager.py
+# hypothesis_version: 6.151.10
+
+[3600, '1 hour', '24 hours', 'Cache system active', 'last_date_range', 'status', 'ttl_data', 'ttl_sector']
