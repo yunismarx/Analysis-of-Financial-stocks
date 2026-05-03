@@ -290,6 +290,57 @@ hr {
     border-color: rgba(255,255,255,0.06) !important;
     margin: 1.5rem 0 !important;
 }
+
+/* ── Mobile Responsiveness Adjustments ── */
+@media (max-width: 768px) {
+    /* Responsive typography */
+    h1 { font-size: 1.5rem !important; }
+    h2 { font-size: 1.25rem !important; }
+    h3 { font-size: 1.1rem !important; }
+    
+    /* Responsive metric cards */
+    [data-testid="metric-container"] {
+        padding: 0.8rem 1rem !important;
+    }
+    [data-testid="stMetricValue"] {
+        font-size: 1.4rem !important;
+    }
+    
+    /* Touch-friendly buttons */
+    .stButton > button {
+        padding: 0.6rem 1rem !important;
+        font-size: 14px !important;
+        width: 100% !important;
+    }
+    
+    /* Adjust expander headers for touch */
+    .streamlit-expanderHeader {
+        padding: 0.7rem 0.8rem !important;
+        font-size: 12px !important;
+    }
+
+    /* Streamlit container padding adjustment */
+    .block-container {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    
+    /* Ensure Header background doesn't overlay content weirdly */
+    header[data-testid="stHeader"] {
+        background: rgba(0, 0, 0, 0.6) !important;
+        backdrop-filter: blur(12px) !important;
+        -webkit-backdrop-filter: blur(12px) !important;
+    }
+    
+    /* Fix Sidebar toggle for mobile */
+    [data-testid="collapsedControl"] {
+        border-radius: 8px !important;
+        background: rgba(28, 28, 30, 0.9) !important;
+        border: 1px solid rgba(255,255,255,0.1) !important;
+    }
+}
 </style>
 """, unsafe_allow_html=True)
 
