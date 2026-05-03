@@ -387,6 +387,12 @@ tickers = st.sidebar.multiselect(
 start_date = st.sidebar.date_input("Start Date", pd.to_datetime("2023-01-01"))
 end_date = st.sidebar.date_input("End Date", pd.to_datetime("today"))
 
+# Add manual refresh button
+st.sidebar.markdown("---")
+if st.sidebar.button("🔄 تحديث البيانات الآن", help="جلب أحدث الأسعار فوراً بدون انتظار التحديث التلقائي", use_container_width=True):
+    st.cache_data.clear()
+    st.rerun()
+
 # Add feature selection
 st.sidebar.markdown("---")
 st.sidebar.header("📊 Advanced Features")
