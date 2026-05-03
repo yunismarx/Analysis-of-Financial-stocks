@@ -389,7 +389,7 @@ end_date = st.sidebar.date_input("End Date", pd.to_datetime("today"))
 
 # Add manual refresh button
 st.sidebar.markdown("---")
-if st.sidebar.button("🔄 تحديث البيانات الآن", help="جلب أحدث الأسعار فوراً بدون انتظار التحديث التلقائي", use_container_width=True):
+if st.sidebar.button("🔄 Update Data Now", help="Fetch latest prices immediately without waiting for auto-refresh", use_container_width=True):
     st.cache_data.clear()
     st.rerun()
 
